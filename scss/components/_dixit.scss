@@ -13,8 +13,14 @@ h1,h2,h3,h4,h5,h6{
 
 .dixit{
 	width: 100%;
-	height: 60px;
+	height: 55px;
+	margin-top: 10px;
 	background-image: url('../img/dixit.svg');
 	background-repeat: no-repeat;
 	background-size: contain;
+	opacity: 0.65;
+
+	&:hover{
+		opacity: 1;
+	}
 }
