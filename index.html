@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dixit</title>
   <link rel="stylesheet" href="stylesheets/app.css" />
+  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" />
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -18,10 +19,9 @@
       <ul class="right button-group">
         <li><a href="/nosotros" class="button">Nosotros</a></li>
         <li><a href="http://equipo.dixit.com.py" class="button">Equipo</a></li>
-        <li><a href="/ideas" class="button">Ideas</a></li>
+        <!--<li><a href="/ideas" class="button">Ideas</a></li>-->
         <li><a href="/trabajos" class="button">Trabajos</a></li>
         <li><a href="/blogs" class="button">Blogs</a></li>
-        <li><a href="/contacto" class="button">Contacto</a></li>
       </ul>
      </div>
    </div>
@@ -43,21 +43,21 @@
   <div class="row">
     
     <div class="large-4 columns">
-      <img src="img/nuestros-blogs.png"/>
+      <a href="/blogs"><img src="img/nuestros-blogs.png"/></a>
       <h4>Nuestros blogs</h4>
-      <p>Dixit está conformado por un gran número de personas que dedican su tiempo a la redacción de artículos y creación de contenido en los más diversos ámbitos dentro de los blogs.</p>
+      <p>Dixit está conformado por un gran número de personas que dedican su tiempo a la redacción de artículos y creación de contenido en los más diversos ámbitos dentro de los blogs. <a href="/blogs"><i class="fa fa-arrow-right"></i></a></p>
     </div>
 
     <div class="large-4 columns">
-      <img src="img/blogdeonda-sow-chico.png"/>
+      <a href="http://blogdeonda.com/category/sow"><img src="img/blogdeonda-sow-chico.png"/></a>
       <h4>Session of wave</h4>
-      <p>El espacio de Un blog... de Onda donde se realizan entrevistas a bandas musicales. El segmento incluye además una sección donde los artistas tocan sus canciones en vivo para nuestras cámaras.</p>
+      <p>El espacio de <em>"Un blog... de onda"</em> donde se realizan entrevistas a bandas musicales. El segmento incluye además una sección donde los artistas tocan sus canciones en vivo para nuestras cámaras. <a href="http://blogdeonda.com/category/sow"><i class="fa fa-arrow-right"></i></a></p>
     </div>
     
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]"/>
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+      <a href="/blogs"><img src="img/trabajos.png"/></a>
+      <h4>Trabajos</h4>
+      <p>Nuestro objetivo no sólo es brindarle un sitio web, sino alentarlo a formar parte de la web 2.0 y orientarlo en el proceso de inserción a este fascinante mundo. <a href="/trabajos"><i class="fa fa-arrow-right"></i></a></p>
     </div>
   
   </div>
@@ -74,7 +74,7 @@
             <p>Sea parte de nuestro equipo o simplemente acerquenos cualquier consulta y en breve nos contactamos con usted.</p>
           </div>
           <div class="large-3 columns">
-            <a href="/contacto" class="radius button right">Contáctenos</a>
+            <a href="mailto:contacto@dixit.com.py" class="radius button right"><i class="fa fa-envelope"></i> &nbsp;&nbsp;Contáctenos</a>
           </div>
         </div>
       </div>
@@ -89,7 +89,39 @@
       <hr/>
       <div class="row">
         <div class="large-12 columns">
-          <p>© Copyright Dixit</p>
+          <div class="row">
+            <div class="large-6 columns">
+              <p>© 2014 Dixit</p>
+            </div>
+            <div class="large-6 columns">
+              <ul class="inline-list right">
+                <li>
+                    <a href="http://facebook.com/grupodixit">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com/grupodixit">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:contacto@dixit.com.py">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div> 

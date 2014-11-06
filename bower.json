@@ -1,8 +1,13 @@
 {
   "name": "Página institucional de Dixit",
-  "version": "0.0.1",
+  "version": "5.0.1",
+  "authors": [
+    "Napa"
+  ],
   "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "fontawesome": "~4.2.0",
+    "handlebars": "~2.0.0"
   }
 }
