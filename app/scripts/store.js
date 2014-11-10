@@ -1,0 +1,1 @@
+Dixitweb.ApplicationAdapter = DS.FixtureAdapter;
