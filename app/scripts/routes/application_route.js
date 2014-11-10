@@ -5,9 +5,3 @@ Dixitweb.ApplicationRoute = Ember.Route.extend({
         return ['red', 'yellow', 'blue'];
     }
 });
-
-Dixitweb.Router.map(function() {
-  this.resource('blogs');
-  this.resource('nosotros');
-  this.resource('trabajos');
-});

@@ -1,3 +1,5 @@
 Dixitweb.Router.map(function () {
-  // Add your routes here
+  this.resource('blogs');
+  this.resource('nosotros');
+  this.resource('trabajos');
 });

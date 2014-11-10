@@ -1,9 +1,13 @@
 var Dixitweb = window.Dixitweb = Ember.Application.create();
 
-Dixitweb.ApplicationView = Ember.View.extend({
-    initFoundation: function () {
-        Ember.$(document).foundation();  
-    }.on('didInsertElement')
+Ember.View.reopen({
+        didInsertElement : function(){
+        this._super();
+        Ember.run.scheduleOnce('afterRender', this, this.afterRenderEvent);
+    },
+    afterRenderEvent : function(){
+        Ember.$(document).foundation();
+    }
 });
 
 /* Order and include as you please. */
