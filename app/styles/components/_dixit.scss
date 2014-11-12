@@ -6,11 +6,6 @@ h1,h2,h3,h4,h5,h6{
 	font-family: $font-titulos;
 }
 
-.button{
-	font-family: $font-titulos;
-	font-size: 1.2em;
-}
-
 .dixit{
 	width: 100%;
 	height: 55px;
@@ -25,12 +20,38 @@ h1,h2,h3,h4,h5,h6{
 	}
 }
 
+.dixit-movil{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 9999;
+
+	.icon{
+		font-size: 3em;
+	}
+}
+
 .side-nav{
 	li{
 		a{
 			&.active:not(.subtitulo){
 			    background: #00adef;
 			    color: #ffffff;				
+			}
+		}
+	}
+}
+
+.button{
+	font-family: $font-titulos;
+	font-size: 1.2em;
+}
+
+ul{
+	&.off-canvas-list{
+		li{
+			a{
+				color:#ffffff;
 			}
 		}
 	}

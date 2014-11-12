@@ -1,51 +1,73 @@
-<div class="row">
-    <div class="large-3 columns">
-        <h1 style="display:none;">Dixit</h1>
-        {{#link-to 'index'}}<div class="dixit"></div>{{/link-to}}
-    </div>
-    <div class="large-9 columns">
-        <ul class="right button-group">
-            <li>{{#link-to 'nosotros' class="button"}}Nosotros{{/link-to}}</li>
-            <li><a href="http://equipo.dixit.com.py" class="button">Equipo</a></li>
-            <li>{{#link-to 'ideas' class="button"}}Ideas{{/link-to}}</li>
-            <li>{{#link-to 'trabajos' class="button"}}Trabajos{{/link-to}}</li>
-            <li>{{#link-to 'blogs' class="button"}}Blogs{{/link-to}}</li>
+
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <aside class="right-off-canvas-menu">
+        <br>
+        <ul class="off-canvas-list">
+            {{partial "includes/menu"}}
         </ul>
+    </aside>
+
+    <div class="row">
+        <div class="large-3 columns">
+            <h1 style="display:none;">Dixit</h1>
+            <a class="right-off-canvas-toggle hide-for-medium-up dixit-movil" href="Javascript:void(0);" >
+                <i class="icon icon-menu"></i>
+            </a>
+            {{#link-to 'index'}}<div class="dixit"></div>{{/link-to}}
+        </div>
+        <div class="large-9 columns show-for-medium-up">
+            <ul class="right button-group">
+                {{partial "includes/menu"}}
+            </ul>
+        </div>
     </div>
-</div>
 
-{{outlet}}
+    <hr class="hide-for-medium-up">
 
-<footer class="row">
-    <div class="large-12 columns">
-        <hr/>
-        <div class="row">
-            <div class="large-12 columns">
-                <div class="row">
-                    <div class="large-6 columns">
-                        <p>© 2014 Dixit</p>
-                    </div>
-                    <div class="large-6 columns">
-                        <ul class="inline-list right">
-                            <li>
-                                <a href="http://facebook.com/grupodixit">
-                                    <i class="icon icon-facebook fa-stack-1x fa-inverse"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://twitter.com/grupodixit">
-                                    <i class="icon icon-twitter fa-stack-1x fa-inverse"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:contacto@dixit.com.py">
-                                    <i class="icon icon-mail fa-stack-1x fa-inverse"></i>
-                                </a>
-                            </li>
-                        </ul>
+    {{outlet}}
+
+    <footer class="row">
+        <div class="large-12 columns">
+            <hr/>
+            <div class="row">
+                <div class="large-12 columns">
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <p>© 2014 Dixit</p>
+                        </div>
+                        <div class="large-6 columns">
+                            <ul class="inline-list right">
+                                <li>
+                                    <a href="http://facebook.com/grupodixit">
+                                        <i class="icon icon-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://twitter.com/grupodixit">
+                                        <i class="icon icon-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://plus.google.com/111917985301567416308">
+                                        <i class="icon icon-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:contacto@dixit.com.py">
+                                        <i class="icon icon-mail"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div> 
-</footer>
+        </div> 
+    </footer>
+
+    <!-- close the off-canvas menu -->
+    <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
