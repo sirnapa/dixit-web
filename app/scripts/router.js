@@ -9,6 +9,7 @@ Dixitweb.Router.map(function () {
 	      this.route('propuesta');
 	      this.route('objetivo');
 	      this.route('tecnologia');
+	      this.route('premios-conecta');
 	    });
 	});
 });
