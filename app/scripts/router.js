@@ -1,7 +1,6 @@
 Dixitweb.Router.map(function () {
-  this.resource('blogs');
   this.resource('nosotros');
-  this.resource('trabajos');
+  this.resource('equipo');
   this.resource('ideas',function(){
 		this.resource('ideas.reciclame',{ path: '/reciclame' },function(){
 	      this.route('problematica');
@@ -12,4 +11,6 @@ Dixitweb.Router.map(function () {
 	      this.route('premios-conecta');
 	    });
 	});
+  this.resource('trabajos');
+  this.resource('blogs');
 });
