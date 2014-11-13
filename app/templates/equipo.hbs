@@ -4,11 +4,10 @@
     
 	{{#each persona in model}}
     	<div class="large-6 columns">
-    		<div class="panel clearfix personas">
     			{{#if persona.avatar}}
-					<a class="th [radius]" href="Javascript:void(0);">
-						<img src="images/equipo/{{unbound persona.avatar}}" />
-					</a>
+    				<div class="panel clearfix personas" style="background-image:url(images/equipo/{{unbound persona.avatar}});">
+				{{else}}
+		    		<div class="panel clearfix personas">
 				{{/if}}
 
 	    		<h2>{{persona.nombre}}</h2>

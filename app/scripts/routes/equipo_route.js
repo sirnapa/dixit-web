@@ -10,7 +10,8 @@ Dixitweb.EquipoRoute = Ember.Route.extend({
         	nombre: 'Vidal Delgado',
         	mail: 'vidal@blogdeonda.com',
         	twitter: 'vidaldel92',
-        	cv: 'vidal'
+        	cv: 'vidal',
+            avatar: 'vidal.jpeg'
         },{
         	nombre: 'Luis Godoy',
         	mail: 'luis.godoy.dure@gmail.com'
@@ -27,13 +28,15 @@ Dixitweb.EquipoRoute = Ember.Route.extend({
         	nombre: 'Nelson Páez',
         	mail: 'nelson@dixit.com.py',
         	twitter: 'sirnapa',
-        	cv: 'nelson'
+        	cv: 'nelson',
+            avatar: 'nelson.jpeg'
         },{
         	nombre: 'Luis Ríos',
         	twitter: 'nosoyunvampire'
         },{
         	nombre: 'Rubén Romero',
-        	mail: 'ruben@dixit.com.py'
+        	mail: 'ruben@dixit.com.py',
+            avatar: 'ruben.jpg'
         },{
         	nombre: 'Juan Manuel Samudio',
         	mail:'juanma@dixit.com.py',
