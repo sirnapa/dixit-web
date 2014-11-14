@@ -1,6 +1,6 @@
-# Foundation Compass Template
+# Página web de Dixit.com.py
 
-The easiest way to get started with Foundation + Compass.
+Sitio institucional de Dixit.
 
 ## Requirements
 
