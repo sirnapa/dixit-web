@@ -6,7 +6,6 @@ Sitio institucional de Dixit.
 
   * [Node.js](http://nodejs.org)
   * [grunt](http://gruntjs.com/): `npm install -g grunt-cli`
-  * [bower](http://bower.io): `npm install bower -g`
 
 Para trabajar en el proyecto, ejecutar el siguiente comando:
 
