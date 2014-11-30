@@ -1,18 +1,41 @@
 <div class="row">
   <div class="large-12 columns">
-    <ul data-orbit>
-      <li><a href="http://funnix.net/"><img src="images/funnix.png"/></a></li>
-      <li><a href="http://blogdeonda.com/"><img src="images/blogdeonda.png"/></a></li>
-      <li><a href="http://rockntown.com/"><img src="images/rockntown.png"/></a></li>
-      <li><a href="http://akashablog.net/"><img src="images/akashablog.png"/></a></li>
-    </ul>
-  </div>
-</div>
-<hr/>
-
-<div class="row">
-  <div class="large-12 columns">
     <h1>Blogs</h1>
     <p>Dixit está conformado por un gran número de personas que dedican su tiempo a la redacción de artículos y creación de contenido en los más diversos ámbitos dentro de los blogs.</p>
+
+    <ul data-orbit>
+      <li><a href="http://funnix.net/"><img src="images/blogs/funnix.png"/></a></li>
+      <li><a href="http://blogdeonda.com/"><img src="images/blogs/blogdeonda.png"/></a></li>
+      <li><a href="http://rockntown.com/"><img src="images/blogs/rockntown.png"/></a></li>
+      <li><a href="http://akashablog.net/"><img src="images/blogs/akashablog.png"/></a></li>
+    </ul>
+
+    <br/>
+
+    {{#each blog in model}}
+      <div class="large-6 columns">
+        {{#if blog.logo}}
+            <div class="panel clearfix blogs" style="background-image:url(images/blogs/logos/{{unbound blog.logo}});">
+        {{else}}
+            <div class="panel clearfix blogs">
+        {{/if}}
+
+        <h2>{{blog.nombre}}</h2>
+
+        <a href="http://{{unbound blog.sitio}}" target="_blank" title="@{{unbound blog.sitio}}">
+              <i class="icon icon-web"></i> {{blog.sitio}}
+        </a> <br/>
+
+        <a href="https://twitter.com/{{unbound blog.twitter}}" target="_blank" title="@{{unbound blog.twitter}}">
+            <i class="icon icon-twitter"></i> @{{blog.twitter}}
+        </a> <br/>
+
+        <a href="https://facebook.com/{{unbound blog.facebook}}" target="_blank" title="Facebook">
+            <i class="icon icon-facebook"></i> / {{blog.facebook}}
+        </a> <br/>
+
+        </div>
+      </div>
+  {{/each}}
   </div>
 </div>
