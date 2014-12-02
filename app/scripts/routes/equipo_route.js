@@ -42,7 +42,8 @@ Dixitweb.EquipoRoute = Ember.Route.extend({
         },{
         	nombre: 'Juan Manuel Samudio',
         	mail:'juanma@dixit.com.py',
-        	cv: 'juanma'
+        	cv: 'juanma',
+            avatar: 'juanma.jpg'
         }];
     }
 });
