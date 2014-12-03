@@ -9,7 +9,7 @@ Dixitweb.BlogsRoute = Ember.Route.extend({
         },{
         	nombre: 'Un blog... de onda',
             sitio: 'blogdeonda.com',
-            logo: 'blogdeonda.png',
+            logo: 'blogdeonda.svg',
             facebook: 'blogdeonda',
             twitter: 'blogdeonda'
         },{

@@ -11,7 +11,7 @@ Dixitweb.EquipoRoute = Ember.Route.extend({
         	mail: 'vidal@blogdeonda.com',
         	twitter: 'vidaldel92',
         	cv: 'vidal',
-            avatar: 'vidal.jpeg'
+            avatar: 'vidal.jpg'
         },{
         	nombre: 'Luis Godoy',
         	mail: 'luis.godoy.dure@gmail.com'
@@ -29,7 +29,7 @@ Dixitweb.EquipoRoute = Ember.Route.extend({
         	mail: 'nelson@dixit.com.py',
         	twitter: 'sirnapa',
         	cv: 'nelson',
-            avatar: 'nelson.jpeg'
+            avatar: 'nelson.jpg'
         },{
         	nombre: 'Luis Ríos',
         	twitter: 'nosoyunvampire',
