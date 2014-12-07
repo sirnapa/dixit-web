@@ -13,4 +13,12 @@ Dixitweb.Router.map(function () {
 	});
   this.resource('trabajos');
   this.resource('blogs');
+  this.resource('ghost',function(){
+	this.route('post');
+	this.route('formato');
+	this.route('imagenes');
+	this.route('botones');
+	this.route('perfil');
+	this.route('cambiar-clave');
+  });
 });
