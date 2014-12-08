@@ -10,18 +10,27 @@
 				<br/><br/>
 			</li>
 			<li>Para crear un nuevo artículo debes ingresar a la pestaña <strong>New Post</strong>.</li>
-			<li>Una vez dentro del editor, podes crear el artículo y prepararlo para la publicación.</li>
+			<li>
+				Una vez dentro del editor, podes crear el artículo y prepararlo para la publicación.
+				<br/><br/>
+				<div class="panel">
+					<strong>Recuerda</strong>. Todos los post deben empezar con una {{#link-to 'ghost.imagenes'}}imagen{{/link-to}} o un {{#link-to 'ghost.videos'}}video{{/link-to}} para que ésta aparezca en el listado de posts como imagen destacada a la izquierda del artículo.
+				</div>
+			</li>
 			<li>
 				En el lado izquierdo se encuentra el panel editor, aquí es donde se puede escribir en la {{#link-to 'ghost.formato'}}sintaxis de Markdown{{/link-to}}. En el lado derecho de la pantalla, verás una vista previa con una idea de cómo se verá el post cuando se publica en el blog.
 				<br/><br/>
-				<img src="images/ghost/editor.jpg"/>
+				{{#link-to 'ghost.ejemplo-post'}}<img src="images/ghost/editor.jpg"/>{{/link-to}}
 				<br/><br/>
 			</li>
 			<li>
-				Las etiquetas se utilizan para crear un mecanismo de categorías para post con temas similares. Los artículos deben tener una cantidad adecuada de etiquetas, para agregarlas existe un botón en la esquina inferior izquierda de la pantalla. Puedes separar las etiquetas con <em>coma</em> o pulsando <em>ENTER</em>. <strong>Recomendamos que todas las etiquetas respeten las mayúsculas, minúsculas, espacios y acentros propios de la lengua española</strong>.
+				Las etiquetas se utilizan para crear un mecanismo de categorías para post con temas similares. Los artículos deben tener una cantidad adecuada de etiquetas, para agregarlas existe un botón en la esquina inferior izquierda de la pantalla. Puedes separar las etiquetas con <em>coma</em> o pulsando <em>ENTER</em>.
 				<br/><br/>
 				<img src="images/ghost/tags.png"/>
 				<br/><br/>
+				<div class="panel">
+					Recomendamos que todas las etiquetas respeten las mayúsculas, minúsculas, espacios y acentros propios de la lengua española
+				</div>
 			</li>
 			<li>
 				<strong>Guardar un borrador</strong>. Para guardar un borrador (sin publicarlo) debes hacer clic en el botón <strong>Save Draft</strong> ubicado en la esquina inferior derecha.
