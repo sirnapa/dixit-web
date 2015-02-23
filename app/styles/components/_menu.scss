@@ -1,8 +1,15 @@
 #menu-principal {
     margin-bottom: 20px;
 
-    .icon{
-    	margin-top: -2px;
+    .button{
+    	.icon{
+	    	margin-top: -2px;
+	    }
+
+	    &.active {
+		    background: $dixit-gris-oscuro;
+		    cursor: default;
+		}
     }
 }
 
