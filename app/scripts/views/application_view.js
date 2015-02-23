@@ -4,6 +4,7 @@ Ember.View.reopen({
 
         $('#primera-carga').remove();
         $('.off-canvas-wrap.move-left').removeClass('move-left');
+        $(window).scrollTop(0);
 
         Ember.run.scheduleOnce('afterRender', this, this.afterRenderEvent);
     },
