@@ -26,10 +26,38 @@
         <!--end Google Analytics -->
 </head>
     <body>
+          
+        <div id="primera-carga" class="row" >
+            <div class="small-12 medium-6 columns">
+                <div class="dixit centrado"></div>
+                <br>
+                <div class="progress primary round">
+                  <span id="barra-progreso" class="meter" style="width: 0%"></span>
+                </div>
+            </div>
+            <script>
+              window.progresar = function(){
+
+                setTimeout(function () {
+                  if(document.getElementById('primera-carga')){
+                    var css = document.getElementById('barra-progreso').style;
+                    var avance = (parseInt(css.width)+1) % 101;
+                    css.width = avance + '%';
+                    progresar();
+                  }
+
+                }, 50);
+              };
+
+              window.progresar();
+            </script>
+        </div>
+
         <!-- build:js(app) scripts/components.js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>
         <script src="bower_components/handlebars/handlebars.runtime.js"></script>
+        <script src="bower_components/fullpage.js/jquery.fullPage.js"></script>
         <script src="@@ember"></script>
         <script src="@@ember_data"></script>
         <!-- endbuild -->

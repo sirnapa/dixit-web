@@ -1,0 +1,29 @@
+#menu-principal {
+    margin-bottom: 20px;
+
+    .icon{
+    	margin-top: -2px;
+    }
+}
+
+.dixit-movil{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 9999;
+
+	.icon{
+		font-size: 3em;
+	}
+}
+
+.side-nav{
+	li{
+		a{
+			&.active:not(.subtitulo){
+			    background: #00adef;
+			    color: #ffffff;				
+			}
+		}
+	}
+}

@@ -24,6 +24,21 @@
 
 }
 
+.logo-dixit {
+    font-size: 1.15em;
+    margin: 0 -2px 0 10px;
+    text-decoration: none;
+}
+.logo-dixit:link, .logo-dixit:visited {
+    border-bottom: medium none;
+}
+.logo-dixit i {
+    margin-left: -9px;
+}
+.logo-dixit i.icon-dixit-t {
+    margin-left: -10px;
+}
+
 [data-icon]:before {
   font-family: "dixit" !important;
   content: attr(data-icon);
@@ -68,21 +83,60 @@
 .icon-mail:before {
   content: "f";
 }
-.icon-facebook:before {
+.icon-menu:before {
   content: "g";
 }
-.icon-twitter:before {
+.icon-rss:before {
   content: "h";
 }
 .icon-google-plus:before {
   content: "i";
 }
-.icon-menu:before {
+.icon-facebook:before {
   content: "j";
 }
-.icon-nota:before {
+.icon-inicio:before {
   content: "k";
 }
-.icon-web:before {
+.icon-twitter:before {
   content: "l";
+}
+.icon-web:before {
+  content: "m";
+}
+.icon-camara:before {
+  content: "n";
+}
+.icon-persona:before {
+  content: "o";
+}
+.icon-arriba:before {
+  content: "p";
+}
+.icon-abajo:before {
+  content: "q";
+}
+.icon-izquierda:before {
+  content: "r";
+}
+.icon-derecha:before {
+  content: "s";
+}
+.icon-macintosh:before {
+  content: "t";
+}
+.icon-apple:before {
+  content: "u";
+}
+.icon-windows:before {
+  content: "v";
+}
+.icon-linux:before {
+  content: "w";
+}
+.icon-configuracion:before {
+  content: "x";
+}
+.icon-nota:before {
+  content: "y";
 }

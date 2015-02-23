@@ -1,0 +1,17 @@
+.dixit{
+	width: 100%;
+	height: 55px;
+	margin-top: 10px;
+	background-image: url('../images/dixit.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.65;
+
+	&:hover{
+		opacity: 1;
+	}
+
+	&.centrado{
+    	background-position: center center;
+	}
+}
