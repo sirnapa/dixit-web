@@ -3,6 +3,7 @@
 	
 	.section{
 		padding: 20px;
+		overflow: hidden;
 
 		background-position: center center;
 		background-size: cover;
@@ -10,6 +11,14 @@
 
 		&.bienvenidos{
 			background-image: url('../images/slides/bienvenidos.jpg');
+
+			p{
+				color: #FFF;
+
+				@media #{$medium-up} {
+			        color: #222;
+			    }
+			}
 		}
 
 		&.equipo{
@@ -43,6 +52,7 @@
 
 		h2{
 			font-size: 3em;
+			line-height: 1.1em;
 		}
 
 		.dixit{
