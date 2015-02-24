@@ -4,8 +4,6 @@ Dixitweb.IndexView = Ember.View.extend({
 
         $('#menu-principal').addClass('hide');
 
-        $('#full-page').fullpage({
-    	    sectionsColor: ['#0288D1', '#03A9F4', '#B3E5FC', '#FFFFFF', '#8BC34A','#212121','#727272']
-        });
+        $('#full-page').fullpage({});
     }
 });

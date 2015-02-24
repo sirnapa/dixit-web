@@ -1,94 +1,62 @@
 <div id="full-page" class="home">
     
-    <div class="section">
+    <div class="section bienvenidos">
 
-    	<div class="row">
-			<div class="medium-12 columns">
-		    	
-		    	<div class="text-center">
-			    	<h2>Bienvenido al mundo</h2>
-			    	<br>
-                	<div class="dixit centrado"></div>
-	            </div>
+    	<div class="text-center">
+	    	<h2>Bienvenido al mundo</h2>
+	    	<br>
+        	<div class="dixit centrado"></div>
+        	<br><br>
+			<p>Somos un grupo de jóvenes trabajando en la solución web que estás buscando.</p>
+			{{#link-to 'nosotros'}}Más sobre nosotros <i class="icon icon-derecha"></i>{{/link-to}}
+			<br><br>
+			<button {{action 'siguiente'}}><i class="icon icon-abajo"></i></button>
+        </div>
 
-			</div>
+    </div>
+
+    <div class="section equipo">
+
+    	<div class="vidrio text-center">
+			<h2>{{#link-to 'equipo'}}Equipo{{/link-to}}</h2>
+			<p>Contamos con un equipo diverso, preparado para enfrentar los desafíos con una visión diferente.</p>
+			{{#link-to 'equipo'}}Pasá a conocer al equipo <i class="icon icon-derecha"></i>{{/link-to}}
+			<br><br>
+			<button {{action 'siguiente'}}><i class="icon icon-abajo"></i></button>
 		</div>
 
     </div>
 
-    <div class="section">
+    <div class="section ideas">
 
-    	<div class="row">
-			<div class="medium-12 columns">
-				{{#link-to 'nosotros' class="button"}}Nosotros{{/link-to}}
-
-				<button class="sigueinte-slide">Siguiente</button>
-			</div>
+    	<div class="vidrio text-center">
+			<h2>{{#link-to 'ideas'}}Ideas{{/link-to}}</h2>
+			<p>Somos innovadores, pensamos en soluciones que puedan cambiar la forma de encarar tus problemas.</p>
+			{{#link-to 'ideas'}}Inspirate <i class="icon icon-derecha"></i>{{/link-to}}
+			<br><br>
+			<button {{action 'siguiente'}}><i class="icon icon-abajo"></i></button>
 		</div>
 
     </div>
 
-    <div class="section">
+    <div class="section trabajos">
 
-    	<div class="row">
-			<div class="medium-12 columns">
-				{{#link-to 'equipo' class="button"}}Equipo{{/link-to}}
-
-				<button class="sigueinte-slide">Siguiente</button>
-			</div>
+    	<div class="vidrio text-center centrado-vertical">
+			<h2>{{#link-to 'trabajos'}}Trabajos{{/link-to}}</h2>
+			<p>Nuestros clientes están satisfechos con los resultados alcanzados.</p>
+			{{#link-to 'trabajos'}}Galería de trabajos <i class="icon icon-derecha"></i>{{/link-to}}
+			<br><br>
+			<button {{action 'siguiente'}}><i class="icon icon-abajo"></i></button>
 		</div>
 
     </div>
 
-    <div class="section">
+    <div class="section blogs">
 
-    	<div class="row">
-			<div class="medium-12 columns">
-				{{#link-to 'ideas' class="button"}}Ideas{{/link-to}}
-
-				<button class="sigueinte-slide">Siguiente</button>
-			</div>
-		</div>
-
-    </div>
-
-    <div class="section">
-
-    	<div class="row">
-			<div class="medium-12 columns">
-				{{#link-to 'trabajos' class="button"}}Trabajos{{/link-to}}
-
-				<button class="sigueinte-slide">Siguiente</button>
-			</div>
-		</div>
-
-    </div>
-
-    <div class="section">
-
-    	<div class="row">
-			<div class="medium-12 columns">
-				{{#link-to 'blogs' class="button"}}Blogs{{/link-to}}
-
-				<button class="sigueinte-slide">Siguiente</button>
-			</div>
-		</div>
-
-    </div>
-
-    <div class="section">
-
-    	<div class="row">
-			<div class="medium-12 columns">
-				
-				<div class="medium-9 columns">
-					<p>Sea parte de nuestro equipo o simplemente acérquenos cualquier consulta y en breve nos contactamos con usted.</p>
-				</div>
-				<div class="medium-3 columns">
-					<a href="mailto:contacto@dixit.com.py" class="radius button right"><i class="icon icon-mail"></i> &nbsp;&nbsp;Contáctenos</a>
-				</div>
-
-			</div>
+    	<div class="vidrio medium-6 column text-center">
+			<h2>{{#link-to 'blogs'}}Contenido{{/link-to}}</h2>
+			<p>Compartimos nuestras experiencias mediante contenido único enfocado a un público joven con sed de información</p>
+			{{#link-to 'blogs'}}Visita nuestros blogs <i class="icon icon-derecha"></i>{{/link-to}}
 		</div>
 
     </div>

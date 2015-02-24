@@ -1,5 +1,38 @@
 .home{
+	margin-top: -3px;
+	
+	.section{
+		padding: 20px;
 
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		&.bienvenidos{
+			background-image: url('../images/slides/bienvenidos.jpg');
+		}
+
+		&.equipo{
+			background-image: url('../images/slides/equipo.jpg');
+		}
+
+		&.ideas{
+			background-image: url('../images/slides/ideas.jpg');
+		}
+
+		&.trabajos{
+			background-image: url('../images/slides/trabajos.jpg');
+		}
+
+		&.blogs{
+			background-image: url('../images/slides/blogs.jpg');
+		}
+
+		.vidrio{
+			background: rgba(255,255,255,0.5);
+			padding: 15px;
+		}
+	}
 }
 
 #primera-carga {
